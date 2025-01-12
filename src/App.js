@@ -1,10 +1,17 @@
-function App() {
-  return (
-    <div>
-      <h1>Welcome to FYP-25-S1-07P Project Website</h1>
-      <p>This is our project details website built with React!</p>
-    </div>
-  );
-}
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+
+const App = () => (
+    <Router>
+        <NavBar />
+        <Header />
+        <HomePage />
+        <Footer />
+    </Router>
+);
 
 export default App;
