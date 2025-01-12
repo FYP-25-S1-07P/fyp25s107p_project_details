@@ -1,40 +1,40 @@
 const teamMembers = [
     {
-        uowId: "8039331",
-        simId: "10248807",
         name: "LAI JUN XIAN BRYAN",
-        email: "jxblai001@mymail.sim.edu.sg",
+        linkedin: "https://www.linkedin.com/in/bryan-linkedin",
+        github: "https://github.com/bryan-github",
+        role: "Team Leader"
     },
     {
-        uowId: "8083162",
-        simId: "10248473",
         name: "PATRICK TAN SHOONG CHIN",
-        email: "psctan002@mymail.sim.edu.sg",
+        linkedin: "https://www.linkedin.com/in/patrick-linkedin",
+        github: "https://github.com/patrick-github",
+        role: "Developer"
     },
     {
-        uowId: "8769229",
-        simId: "10259629",
         name: "VICTOR JONG SOON PENG",
-        email: "vspjong001@mymail.sim.edu.sg",
+        linkedin: "https://www.linkedin.com/in/victorjongsoon/",
+        github: "https://github.com/victorjongsoon",
+        role: "Developer"
     },
     {
-        uowId: "8083149",
-        simId: "10210343",
         name: "LIU HUITING",
-        email: "hliu028@mymail.sim.edu.sg",
+        linkedin: "https://www.linkedin.com/in/liu-linkedin",
+        github: "https://github.com/liu-github",
+        role: "Developer"
     },
     {
-        uowId: "8376608",
-        simId: "10254595",
         name: "Arrashi Faris Saesarian Libinuko",
-        email: "libinuko001@mymail.sim.edu.sg",
+        linkedin: "https://www.linkedin.com/in/arrashi-linkedin",
+        github: "https://github.com/arrashi-github",
+        role: "Developer"
     },
     {
-        uowId: "8379634",
-        simId: "10254139",
         name: "TAN ZHONG XUEN",
-        email: "zxtan019@mymail.sim.edu.sg",
-    },
+        linkedin: "https://www.linkedin.com/in/tan-linkedin",
+        github: "https://github.com/tan-github",
+        role: "Developer"
+    }
 ];
 
 export default teamMembers;

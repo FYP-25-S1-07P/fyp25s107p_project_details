@@ -12,15 +12,19 @@ const HomePage = () => {
                     <div className="row gx-5 justify-content-center">
                         <div className="col-xxl-8">
                             <div className="text-center my-5">
-                                <h2 className="display-5 fw-bolder"><span className="text-gradient d-inline">About Our Project</span></h2>
+                                <h2 className="display-5 fw-bolder"><span className="text-gradient d-inline">About Our Project</span>
+                                </h2>
                                 <p className="lead fw-light mb-4">
-                                    Welcome to the official website of our Final Year Project:<br />
+                                    Welcome to the official website of our Final Year Project:<br/>
                                     <strong>Interactive Real Estate Price Prediction in Singapore</strong>
                                 </p>
                                 <p className="text-muted">
-                                    Our project is focused on developing a user-friendly platform that utilizes <strong>artificial intelligence</strong> and
-                                    <strong> machine learning</strong> to predict real estate prices in Singapore. This platform is designed to enable users to
-                                    input property details and receive instant price estimates based on historical data and property attributes.
+                                    Our project is focused on developing a user-friendly platform that utilizes <strong>artificial
+                                    intelligence</strong> and
+                                    <strong> machine learning</strong> to predict real estate prices in Singapore. This
+                                    platform is designed to enable users to
+                                    input property details and receive instant price estimates based on historical data
+                                    and property attributes.
                                 </p>
                                 <p className="text-muted">
                                     Key components of our project include:
@@ -55,7 +59,9 @@ const HomePage = () => {
                                     ))}
                                 </div>
                                 <p className="text-muted mt-4">
-                                    This website not only showcases our project journey but also serves as a platform to share updates, milestones, and insights into how data-driven technologies are shaping the future of real estate in Singapore.
+                                    This website not only showcases our project journey but also serves as a platform to
+                                    share updates, milestones, and insights into how data-driven technologies are
+                                    shaping the future of real estate in Singapore.
                                 </p>
                             </div>
                         </div>
@@ -75,13 +81,25 @@ const HomePage = () => {
                                 <div className="card h-100 border-0 shadow">
                                     <div className="card-body text-center">
                                         <h5 className="card-title fw-bold">{member.name}</h5>
-                                        <p className="card-text mb-1"><strong>UOW ID:</strong> {member.uowId}</p>
-                                        <p className="card-text mb-1"><strong>SIM ID:</strong> {member.simId}</p>
-                                        <p className="card-text">
-                                            <a href={`mailto:${member.email}`} className="text-decoration-none">
-                                                {member.email}
+                                        <p className="card-text text-muted">{member.role}</p>
+                                        <div className="d-flex justify-content-center gap-3 mt-3">
+                                            <a
+                                                href={member.linkedin}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="text-decoration-none"
+                                            >
+                                                <i className="bi bi-linkedin fs-4"></i>
                                             </a>
-                                        </p>
+                                            <a
+                                                href={member.github}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="text-decoration-none"
+                                            >
+                                                <i className="bi bi-github fs-4"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
