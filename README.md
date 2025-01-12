@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+You can access our website [HERE](https://fyp-25-s1-07p.github.io/fyp25s107p_project_details/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
